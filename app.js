@@ -8,7 +8,7 @@ const data = require("./init/data");
 const ejsMate=require("ejs-mate");
 
 //database
-const MONGO_URL='mongodb://127.0.0.1:27017/wanderlust';
+const MONGO_URL='mongodb+srv://tandonkartikey11:01wEklxBJWnmYk9E@cluster0.t8p1o.mongodb.net/';
 
 main().then(()=>{
     console.log("connected to DB");
